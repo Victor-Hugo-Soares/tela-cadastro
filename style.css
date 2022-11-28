@@ -10,14 +10,13 @@ body {
         background-color: rgba(255, 255, 255, 0.1);
         position: absolute;
         top: 20%;
-        left: 38%;
-        transform: translate(-50%x, -50%y);
+        left: 35%;
+        transform: translate(-5-0%x, -50%y);
         padding: 50px;
         border-radius: 50px;
         color: whitesmoke;
         justify-content: center;
 }
-
 h1{
    display: flex;
    justify-content: center;    
@@ -26,7 +25,8 @@ h1{
 }
 
 input{
-    padding: 15px;
+    padding: 18px;
+    width: 80%;
     border: none;
     outline: none;
     font-size: 15px;
@@ -40,6 +40,10 @@ button{
     border: none;
     border-radius: 50px;
     background-color: #f46a28;
+}
+
+button:hover{
+  background-color: #cb5924;
 }
       
 .slider-thumb::before {
